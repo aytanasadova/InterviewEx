@@ -1,4 +1,4 @@
-package myExercises.hackerrank;
+package myExercises.hackerrank.strings;
 
 
 
@@ -10,7 +10,7 @@ package myExercises.hackerrank;
  * Your task is to find the minimum number of required deletions.
  * ABABABAB -> 0, AAAA-> 3
  */
-// TODO: 01/09/2022  not solved 
+
 public class AlternatingCharacters {
     public static void main(String[] args) {
         int result = alternatingCharacters("AAAA");

@@ -1,4 +1,4 @@
-package myExercises.hackerrank;
+package myExercises.hackerrank.strings;
 
 
 import java.util.*;
