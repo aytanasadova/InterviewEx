@@ -1,4 +1,4 @@
-package myExercises.hackerrank.sorting;
+package myExercises.hackerrank.interwiePreperation.sorting;
 import java.util.*;
 
 class Player {

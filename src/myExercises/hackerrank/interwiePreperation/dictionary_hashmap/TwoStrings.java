@@ -1,4 +1,4 @@
-package myExercises.hackerrank.dictionary_hashmap;
+package myExercises.hackerrank.interwiePreperation.dictionary_hashmap;
 
 import java.util.HashMap;
 import java.util.Map;

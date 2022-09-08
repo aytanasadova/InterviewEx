@@ -1,4 +1,4 @@
-package myExercises.hackerrank.strings;
+package myExercises.hackerrank.interwiePreperation.strings;
 
 
 /**

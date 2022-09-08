@@ -1,4 +1,4 @@
-package myExercises.hackerrank.strings;
+package myExercises.hackerrank.interwiePreperation.strings;
 
 /**
  * A student is taking a cryptography class and has found anagrams to be very useful.

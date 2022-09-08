@@ -1,4 +1,4 @@
-package myExercises.hackerrank.arrays;
+package myExercises.hackerrank.interwiePreperation.arrays;
 
 import java.util.List;
 

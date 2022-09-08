@@ -1,7 +1,4 @@
-package myExercises.hackerrank.dictionary_hashmap;
-
-import com.sun.source.tree.Tree;
-import com.sun.source.tree.TreeVisitor;
+package myExercises.hackerrank.interwiePreperation.dictionary_hashmap;
 
 import java.io.*;
 import java.util.*;
