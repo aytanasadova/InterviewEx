@@ -1,4 +1,4 @@
-package myExercises.hackerrank.general.Algorithms.birthdayCake;
+package myExercises.hackerrank.general.Algorithms.warmup.birthdayCake;
 
 import java.io.*;
 import java.util.HashMap;

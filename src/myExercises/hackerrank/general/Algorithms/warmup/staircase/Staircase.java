@@ -1,4 +1,4 @@
-package myExercises.hackerrank.general.Algorithms.staircase;
+package myExercises.hackerrank.general.Algorithms.warmup.staircase;
 
 import java.io.BufferedReader;
 import java.io.IOException;
