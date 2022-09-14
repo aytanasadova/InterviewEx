@@ -5,7 +5,7 @@ import java.util.Deque;
 
 public class History {
 
-    private Deque<UndoableCommand> undoableCommands = new ArrayDeque<>();
+    private final Deque<UndoableCommand> undoableCommands = new ArrayDeque<>();
 
     public void push(UndoableCommand undoableCommand) {
         undoableCommands.add(undoableCommand);
@@ -13,5 +13,9 @@ public class History {
 
     public UndoableCommand pop() {
         return undoableCommands.pop();
+    }
+
+    public int size(){
+        return undoableCommands.size();
     }
 }
