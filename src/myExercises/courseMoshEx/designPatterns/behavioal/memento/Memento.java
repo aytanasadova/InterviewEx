@@ -2,7 +2,7 @@ package myExercises.courseMoshEx.designPatterns.behavioal.memento;
 
 import java.util.Stack;
 
-public class History {
+public class Memento {
 
 
     Stack<EditorState> states=new Stack<>();

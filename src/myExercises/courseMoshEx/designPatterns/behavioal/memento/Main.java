@@ -5,7 +5,7 @@ public class Main {
         Editor e = new Editor();
         e.setContent("Hello there");
         EditorState es = e.createState();
-        History history = new History();
+        Memento history = new Memento();
         history.push(es);
 
         e.setContent("Hello there 1");
