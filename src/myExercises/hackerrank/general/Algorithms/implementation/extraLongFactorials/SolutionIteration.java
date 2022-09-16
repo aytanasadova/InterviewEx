@@ -15,15 +15,17 @@ class ResultIter {
 
     public static void extraLongFactorials(int n) {
         // Write your code here
-        BigInteger f=BigInteger.valueOf(1);
-        f=nextPow(f,BigInteger.valueOf(n));
+        BigInteger f = BigInteger.valueOf(1);
+        f = nextPow(f, BigInteger.valueOf(n));
         System.out.println(f);
     }
 
-    private static BigInteger nextPow(BigInteger lastPow,BigInteger n){
-        lastPow=lastPow.multiply(n);
-        if (n.intValue()>1) nextPow(lastPow,n.subtract(BigInteger.valueOf(1)));
-        return lastPow;
+    private static BigInteger nextPow(BigInteger lastPow, BigInteger n) {
+        lastPow = lastPow.multiply(n);
+        if (n.intValue() > 1)
+            return nextPow(lastPow, n.subtract(BigInteger.valueOf(1)));
+        else
+            return lastPow;
     }
 
 }
