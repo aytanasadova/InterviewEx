@@ -1,12 +1,17 @@
 package Luxoft.tasks;
 
 import java.util.Arrays;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
 
 public class Ex1 {
+
+   static Logger logger=Logger.getLogger(Ex1.class.getName());
     public static void main(String[] args) {
         int[] array = new int[]{2, 1, 3};
-        System.out.println("Main array: " + Arrays.toString(array));
+        logger.info("Main array: " + Arrays.toString(array));
+
         generateSubArrays(array);
     }
 
