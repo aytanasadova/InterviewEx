@@ -1,4 +1,4 @@
-package wallet;
+package walletHub;
 
 import java.util.HashSet;
 
