@@ -38,8 +38,8 @@ class CoinCountCalculator {
             return coinCount;
         }
         int lastSmallCoinBeforeNum = getLastSmallCoinBeforeNum(num);
-        int reminder = num % lastSmallCoinBeforeNum;
-        int result = num / lastSmallCoinBeforeNum;
+        int reminder = getReminder(num,lastSmallCoinBeforeNum);
+        int result = getDivideResult(num,lastSmallCoinBeforeNum);
         coinCount += result;
         if (coinSet.contains(reminder)) {
             coinCount += 1;
@@ -48,6 +48,13 @@ class CoinCountCalculator {
             return getRecursive(coinCount, reminder);
         }
         return coinCount;
+    }
+
+    private static int getReminder(int num , int lastSmallCoinBeforeNum){
+        return num % lastSmallCoinBeforeNum;
+    }
+    private static int getDivideResult(int num , int lastSmallCoinBeforeNum){
+        return num / lastSmallCoinBeforeNum;
     }
 
     private static int getLastSmallCoinBeforeNum(int num) {
